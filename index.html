@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music - Checkpoint 04</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container topbar">
+      <a href="#inicio" class="logo" aria-label="Página inicial Music">
+        <i class="fa-solid fa-headphones"></i>
+        <span>Music</span>
+      </a>
+
+      <nav class="menu" aria-label="Menu principal">
+        <ul class="menu__list">
+          <li><a href="#playlist">Playlist</a></li>
+          <li><a href="#artistas">Artistas</a></li>
+          <li><a href="#downloads">Downloads</a></li>
+          <li><a href="#login" class="btn btn--small">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section">
+      <div class="container hero__content">
+        <div class="hero__text">
+          <h1 class="hero__title">
+            Música para todos os
+            <span class="highlight">momentos da sua vida.</span>
+          </h1>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, expedita!
+          </p>
+
+          <a href="#playlist" class="btn">
+            Vamos começar
+            <i class="fa-solid fa-play"></i>
+          </a>
+        </div>
+
+        <div class="hero__media">
+          <img src="./imagens/user1.png" alt="homem feio rindo muito feliz escutando alguma musica">
+        </div>
+      </div>
+    </section>
+
+    <section class="hero hero--reverse section" id="playlist">
+      <div class="container hero__content">
+        <div class="hero__text">
+          <h2 class="hero__title">
+            <span class="highlight">Ouça as suas músicas,</span>
+            crie suas playlists exclusivas.
+          </h2>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, expedita!
+          </p>
+
+          <a href="#downloads" class="btn">
+            Crie suas playlists
+            <i class="fa-solid fa-play"></i>
+          </a>
+        </div>
+
+        <div class="hero__media">
+          <img src="./imagens/user2.png" alt="Mulher de boné fingindo estar feliz sendo que está depressiva">
+        </div>
+      </div>
+    </section>
+
+    <section class="downloads section" id="downloads">
+      <div class="container">
+        <h2 class="section__title">Músicas mais baixadas</h2>
+
+        <div class="artists" id="artistas">
+          <article class="artist-card">
+            <figure class="artist-card__image">
+              <img src="./imagens/artista1.jpg" alt="mulher servindo cunt">
+            </figure>
+            <h3>Artista ABCD</h3>
+            <p>Lorem ipsum dolor</p>
+          </article>
+
+          <article class="artist-card">
+            <figure class="artist-card__image">
+              <img src="./imagens/artista2.jpg" alt="homem servindo cunt">
+            </figure>
+            <h3>Artista EFGH</h3>
+            <p>Lorem ipsum dolor</p>
+          </article>
+
+          <article class="artist-card">
+            <figure class="artist-card__image">
+              <img src="./imagens/artista3.jpg" alt="outra mulher servindo cunt">
+            </figure>
+            <h3>Artista IJKL</h3>
+            <p>Lorem ipsum dolor</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section">
+    <div class="container footer__content">
+      <div class="footer__links">
+        <a href="#">Music</a>
+        <a href="#">Sobre</a>
+        <a href="#">Trabalhe</a>
+        <a href="#">Contatos</a>
+      </div>
+
+      <div class="footer__links">
+        <a href="#">Comunidade</a>
+        <a href="#">Artistas</a>
+        <a href="#">Desenvolvedores</a>
+        <a href="#">Direitos Legais</a>
+      </div>
+
+      <div class="footer__links">
+        <a href="#">Links</a>
+        <a href="#">Suporte</a>
+        <a href="#">Web Player</a>
+        <a href="#">Free Mobile App</a>
+      </div>
+    </div>
+
+    <div class="container footer__social">
+      <a href="#" aria-label="Instagram">
+        <i class="fa-brands fa-instagram social"></i>
+      </a>
+      <a href="#" aria-label="Twitter X">
+        <i class="fa-brands fa-x-twitter social"></i>
+      </a>
+      <a href="#" aria-label="Discord">
+        <i class="fa-brands fa-discord social"></i>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
